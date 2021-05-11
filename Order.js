@@ -22,6 +22,9 @@ function loadform() {
               <br> 
             <input type="submit"> 
         </form>
+        <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
         `;
   index.innerHTML += html;
   //  document.querySelector("form").addEventListener("submit", () => {
