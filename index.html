@@ -8,45 +8,46 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="main"></div>
-    <div id="Form"></div>
     <div id="Nav">
       <div id="Appt"></div>
       <div id="Home"></div>
       <div id="About"></div>
       <div id="Contact"></div>
     </div>
+    <div id="main">
+      <div id="Form"></div>
 
-    <div class="slideContainer">
-      <div class="Slide">
-        <img
-          src="https://images.pexels.com/photos/3540375/pexels-photo-3540375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        />
-        <div class="Caption">Photo 1</div>
+      <div class="slideContainer">
+        <div class="Slide">
+          <img
+            src="https://images.pexels.com/photos/3540375/pexels-photo-3540375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          />
+          <div class="Caption">Photo 1</div>
+        </div>
+        <div class="Slide">
+          <img
+            src="https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          />
+          <div class="Caption">Photo 2</div>
+        </div>
+        <div class="Slide">
+          <img
+            src="https://images.unsplash.com/photo-1584910758141-f7993f9e203d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
+          />
+          <div class="Caption">Photo 3</div>
+        </div>
+        <a class="prevBtn">❮</a>
+        <a class="nextBtn">❯</a>
       </div>
-      <div class="Slide">
-        <img
-          src="https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-        />
-        <div class="Caption">Photo 2</div>
+      <br />
+      <div style="text-align: center">
+        <span class="Navdot" onclick="currentSlide(1)"></span>
+        <span class="Navdot" onclick="currentSlide(2)"></span>
+        <span class="Navdot" onclick="currentSlide(3)"></span>
       </div>
-      <div class="Slide">
-        <img
-          src="https://images.unsplash.com/photo-1584910758141-f7993f9e203d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
-        />
-        <div class="Caption">Photo 3</div>
-      </div>
-      <a class="prevBtn">❮</a>
-      <a class="nextBtn">❯</a>
     </div>
-    <br />
-    <div style="text-align: center">
-      <span class="Navdot" onclick="currentSlide(1)"></span>
-      <span class="Navdot" onclick="currentSlide(2)"></span>
-      <span class="Navdot" onclick="currentSlide(3)"></span>
-    </div>
-
     <script src="./index.js"></script>
     <script src="./Order.js"></script>
+    <script src="./clear_divs.js"></script>
   </body>
 </html>
